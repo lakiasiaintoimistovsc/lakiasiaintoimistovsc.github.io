@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /404.html
+
+# Exclude paginated URLs to prevent duplicate content indexing
+Disallow: /*?page=
+
+# Sitemap location
+Sitemap: https://www.laki-vsc.fi/sitemap.xml
